@@ -1,0 +1,15 @@
+{
+  "enabledManagers": ["gradle"],
+  "packageRules": [
+    {
+      "enabled": false,
+      "matchManagers": ["gradle"],
+      "matchPackagePatterns": ["*"]
+    },
+    {
+      "enabled": true,
+      "matchManagers": ["gradle"],
+      "matchPackageNames": ["org.springframework.boot:spring-boot-gradle-plugin"]
+    }
+  ]
+}
