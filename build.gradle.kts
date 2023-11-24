@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.5.5")
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.7.18")
     }
     configurations.classpath {
         resolutionStrategy.activateDependencyLocking()
